@@ -1,0 +1,480 @@
+/**********************************
+			GENERAL
+***********************************/
+
+html, 
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	background-color: #D9D9D9;
+	color: #000000;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -70px;
+	position: relative;
+}
+
+
+a {
+	text-decoration: underline;
+	color: #0033CC;
+}
+
+.main-page {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: #006666;
+	font-size: 1.5em;
+}
+
+h2 {
+	text-align: center;
+	color: #006666;
+}
+
+
+/**********************************
+			HEADER
+***********************************/
+
+
+.header {
+	background: #000000; 
+	 /*#CBA03A*/ 
+	padding: 0px 80px 0px 80px;
+	/*margin-bottom: 25px;*/
+}
+
+.header a {
+	text-decoration: none;
+	color: #E6E6E6;
+}
+
+
+#img_logo {
+	width: 60px;
+	height: 60px;
+	padding: 8px;
+}
+
+#leaf-name {
+	width: 175px;
+	height: 45px;
+	padding: 8px;
+}
+
+#home-image {
+	width: 100%;
+	height: 500px;
+}
+
+#view_cart {
+	width: 45px;
+	height: 45px;
+	padding: 0px;
+}
+
+.nav {
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	margin-right: 5%;		
+	font-size: 1.05em;
+	padding-top: 8px;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	padding: 15px 10px;
+}
+
+/* nav link hover mouse */
+.nav a:hover {
+	color: #00CCCC;
+}
+
+.on a{
+	text-decoration: underline;
+	color: #00CCCC;
+}
+
+
+
+
+/**********************************
+	Shirts
+***********************************/
+
+
+
+.main-page ul.products li {
+    display: inline-block;
+    list-style: none;
+    border: 15px solid #E3E1E0;
+   	margin: 0 0 17px 17px;
+}
+
+
+.main-page ul.products p {
+	text-align: center;
+}
+
+.main-page ul.products li a {
+	background: white;
+	opacity: .85;
+	display: block;
+    color: #999;
+}
+
+.main-page ul.products li a:hover {
+    opacity: 1;
+    color: #5C5C5C;
+}
+
+.main-page ul.products li img {
+    width: 190px;
+}
+
+.main-page ul.products li p {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+}
+
+
+
+.shirt-picture img {
+	width: 250px;
+}
+
+
+
+.shirt-picture {
+    float: left;
+    width: 340px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    padding: 14px;
+    background: #f0eeed;
+    margin: 8px;    
+}
+
+
+.shirt-picture span {
+    background: white;
+    display: block;
+    width: 100%;
+    padding: 36px 0 61px;
+}
+
+
+.shirt-details {
+    width: 450px;
+    float: right;
+}
+
+
+.breadcrumb {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 0 48px;
+
+}
+
+
+.note-designer {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+.navigation {
+    text-align: right;
+    margin: 1em 0;
+}
+
+.navigation a,
+.navigation span {
+    padding: 5px 20px;
+    border: 1px solid #5C7A99;
+    display: inline-block;    
+    text-decoration: none;
+    color: #676767;
+}
+.navigation span {
+	background: #8AB8E6;
+	border-color: #999;
+	color: #444;
+}
+
+.navigation a:hover {
+	background: #8AB8E6;
+}
+
+
+
+
+
+
+
+/**************************
+	REGISTRATION FORM
+***************************/
+
+
+
+#login-form
+{
+ margin-top:70px;
+}
+table
+{
+ border:solid #dcdcdc 1px;
+ padding:25px;
+ box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+table tr,td
+{
+ padding:15px;
+ border:solid #e1e1e1 1px;
+}
+table tr td input
+{
+ width:97%;
+ height:45px;
+ border:solid #e1e1e1 1px;
+ border-radius:3px;
+ padding-left:10px;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:16px;
+ background:#f9f9f9;
+ transition-duration:0.5s;
+ box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td button
+{
+ width:100%;
+ height:45px;
+ border:0px;
+ background:rgba(12,45,78,11);
+ background:-moz-linear-gradient(top, #595959 , #515151);
+ border-radius:3px;
+ box-shadow: 1px 1px 1px rgba(1,0,0,0.2);
+ color:#f9f9f9;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+ font-weight:bolder;
+ text-transform:uppercase;
+}
+table tr td button:active
+{
+ position:relative;
+ top:1px;
+}
+table tr td a
+{
+ text-decoration:none;
+ color:#00a2d1;
+ font-family:Verdana, Geneva, sans-serif;
+ font-size:18px;
+}
+
+
+
+
+
+/*********************
+	Logout-Page
+*********************/
+
+
+#header
+{
+ width:100%;
+ height:60px;
+ background:rgba(00,11,22,33);
+ color:#9fa8b0;
+ font-family:Verdana, Geneva, sans-serif;
+}
+
+#header #right
+{
+ float:right;
+ position:relative;
+}
+
+#header #right #content
+{
+ position:relative;
+ top:20px;
+ right:100px;
+ color:#fff;
+}
+
+#header #right #content a
+{
+ color:#00a2d1;
+}
+
+
+
+
+
+/**********************************
+			CONTACT US
+***********************************/
+
+.main-page p, form {
+	width: 375px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+
+
+/**********************************
+		CONTACT US: FORM DESIGN
+***********************************/
+
+.main-page .message {
+	background: #EBD798;
+	border-style: solid;
+    border-color: #FF8566;
+	padding: 6px;
+}
+
+form table {
+	width: 375px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+form tr {
+	border: 1px solid #CCC;
+	padding: 5px;
+	background: #f4f3f2;
+}
+
+form th {
+	border: 1px solid #CCC;
+	padding: 8px;
+	width: 375px;
+}
+
+
+form input[type="submit"] {
+    width: 375px;
+    background: #555555;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+/**********************************
+		SEARCH
+***********************************/
+
+.main-page .search-form p {
+	text-align: center;
+	padding: 20px;
+}
+
+.main-page .search-form form {
+    width: auto;
+    text-align: center;
+}
+.main-page .search-form form input[type="text"] {
+    font-size: 24px;
+    width: 60%;
+    line-height: 1.5;
+    padding: 3px;
+}
+.main-page .search-form form input[type="submit"] {
+    width: auto; 
+}
+
+
+
+
+/**********************************
+			FOOTER
+***********************************/
+
+
+.footer {
+	font-family: 'Oswald', sans-serif;
+    background: #333333; 
+    /*#FFFFDB;*/
+    padding: 14px 0px 8px 0px;
+    color: #a5a5a5;
+    font-family: 'Open Sans', sans-serif;
+    
+    height: 70px;
+	position: relative;
+}
+
+
+.clearfooter {
+	height: 70px;
+	clear: both;
+}
+
+
+
+.footer .social-icon {
+	width: 30px;
+	height: 30px;
+}
+
+.footer ul {
+	margin: 0; 
+	padding: 0; 
+	text-align: center;
+}
+
+.footer ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+
+.footer a {
+	text-decoration: none; 
+	color: #539def; 
+	margin: 0 5px;
+}
+
+
+.footer p {
+	margin: 0;
+	padding: 3px; 
+	font-size: .9em;
+	text-align: center;
+}
+
+
+
+
+
+

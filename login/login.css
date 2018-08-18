@@ -1,0 +1,101 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   background-color: #F1F1F1;
+}
+
+
+.header {
+   background: #241B18;
+   padding:15px;
+}
+
+.header p{
+   padding-left: 50px;
+   color: #FFF;
+   font-size: 125%;
+}
+
+
+h2 {
+   color: #006B6B;
+   font-size: 2.3em; 
+   font-weight: 500;
+   text-align: center;
+}
+
+
+
+section#loginBox {
+   color: #1A8F99;
+   background-color: #FFF;
+   box-shadow: 10px 8px 8px #191919;
+   border: 1px solid rgba(0,0,0,.15);
+   border-radius: 4px;
+   margin: 40px auto; 
+   padding: 0px 24px 24px 24px;
+   width: 500px;
+   font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+
+.form-section label {
+   display: block;
+}
+
+
+.form-section input[type="text"],
+.form-section input[type="password"]{
+      background-color: #FFF;
+      border: 1px solid #BABABA;
+      border-radius: 2px;
+      display: block;
+      font-size: 14px;
+      margin: 6px 0 12px 0;
+      padding: 8px;  
+      width: 95%;
+}
+   
+.form-section input[type="text"]:focus,
+.form-section input[type="password"]:focus { 
+   border-color: #4195fc;
+}
+   
+.form-section input[type="text"]:invalid:focus,
+.form-section input[type="password"]:invalid:focus{ 
+   border-color: #FF3300;
+}
+
+
+.button{
+   border-radius: 3px;
+   padding: 10px 20px;
+   background: #1A8F99;
+   color: #FFF;
+}
+
+
+.content {
+   padding-top: 50px;
+   text-align: center;
+   font-weight: 200;
+   font-size: 125%;
+   font: sans-serif;
+}
+
+
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;  
+   text-align: center;
+   background: #E2B241;
+}
